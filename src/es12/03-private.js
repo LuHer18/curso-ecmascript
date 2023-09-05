@@ -5,17 +5,17 @@ class user {
         this.age = age;
     }
     //metodo
-    speak(){
+    #speak(){
         return 'Hello';
 
     }
     greeting(){
         return `${this.speak()} ${this.name}`;
     }
-    get uAge(){
+    get #uAge(){
         return this.age;
     }
-    set uAge(n){
+    set #uAge(n){
         this.age = n;
     }
 }
